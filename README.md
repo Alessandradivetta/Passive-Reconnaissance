@@ -54,7 +54,7 @@ nslookup -type=MX example.com
 ```
 For more advanced DNS queries and additional functionality, you can use dig, the acronym for “Domain Information Groper,” if you are curious.
 
-Let’s use dig to look up the MX records and compare them to nslookup. We can use dig example.com, but to specify the record type, we would use 
+Let’s use dig to look up the MX records and compare them to nslookup. We can use dig example.com, but to specify the record type, we would use: 
 ```
 dig example.com MX
 ```
