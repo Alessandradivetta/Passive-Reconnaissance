@@ -34,8 +34,10 @@ nslookup example.com
 ```
 The output provides information such as:
 IP address associated with the domain; DNS server used for the query;  additional information about the DNS records, such as A, MX, TXT records, etc.
+
 Also, nslookup is useful for diagnosing DNS resolution problems and obtaining information about a domain's DNS records.
 You can specify a DNS server other than the default one, for example:
 ```
 nslookup example.com 8.8.8.8
 ```
+Let’s say you want to learn about the email servers and configurations for a particular domain. You can issue nslookup -type=MX example.com.
