@@ -60,3 +60,12 @@ dig example.com MX
 ```
 Optionally, we can select the server we want to query using dig @SERVER DOMAIN_NAME TYPE.
 A quick comparison between the output of nslookup and dig shows that dig returned more information, such as the TTL (Time To Live) by default.
+
+_______________________________________________________________________________________________________________________________________________
+
+
+# Active - reconnaissance
+Now we will focus on the active - reconnisance, which requires you to make some kind of contact with your target. 
+This contact can be a phone call or a visit to the target company under some pretence to gather more information, usually as part of social engineering. Alternatively, it can be a direct connection to the target system, whether visiting their website or checking if their firewall has an SSH port open. 
+We'll discuss using simple tools such as ping, traceroute, telnet, and nc to gather information about the network, system, and services.
+
