@@ -40,4 +40,7 @@ You can specify a DNS server other than the default one, for example:
 ```
 nslookup example.com 8.8.8.8
 ```
-Let’s say you want to learn about the email servers and configurations for a particular domain. You can issue nslookup -type=MX example.com.
+Let’s say you want to learn about the email servers and configurations for a particular domain. You can issue
+```
+nslookup -type=MX example.com.
+```
