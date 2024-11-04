@@ -26,5 +26,16 @@ You can run the command in the terminal like this:
 ```
 whois example.com
 ```
-In thi way, you will obtain the domain name, registrant contact administrative contact technical contact name server creation date, expiration date.
-
+In this way, you will obtain the domain name, registrant contact administrative contact technical contact name server creation date, expiration date.
+# nslookup command
+"Name Server Look Up" is a tool used to query DNS servers and obtain information about domains and IP addresses. Here is an overview of how it works:
+```
+nslookup example.com
+```
+The output provides information such as:
+IP address associated with the domain; DNS server used for the query;  additional information about the DNS records, such as A, MX, TXT records, etc.
+Also, nslookup is useful for diagnosing DNS resolution problems and obtaining information about a domain's DNS records.
+You can specify a DNS server other than the default one, for example:
+```
+nslookup example.com 8.8.8.8
+```
