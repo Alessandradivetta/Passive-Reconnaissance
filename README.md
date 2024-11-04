@@ -50,13 +50,13 @@ nslookup example.com 8.8.8.8
 ```
 Let’s say you want to learn about the email servers and configurations for a particular domain. You can issue:
 ```
-nslookup -type=MX example.com.
+nslookup -type=MX example.com
 ```
 For more advanced DNS queries and additional functionality, you can use dig, the acronym for “Domain Information Groper,” if you are curious.
 
 Let’s use dig to look up the MX records and compare them to nslookup. We can use dig example.com, but to specify the record type, we would use 
 ```
-dig example.com MX.
+dig example.com MX
 ```
 Optionally, we can select the server we want to query using dig @SERVER DOMAIN_NAME TYPE.
 A quick comparison between the output of nslookup and dig shows that dig returned more information, such as the TTL (Time To Live) by default.
