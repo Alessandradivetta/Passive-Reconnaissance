@@ -17,10 +17,13 @@ Examples of active reconnaissance activities include:
 Connecting to one of the company servers such as HTTP, FTP, and SMTP.
 Calling the company in an attempt to get information (social engineering).
 Entering company premises pretending to be a repairman.
+
 We will focus on three essential tools related to passive reconnaissance:
 
 whois to query WHOIS servers
+
 nslookup to query DNS servers
+
 dig to query DNS servers
 
 # WHOIS command
