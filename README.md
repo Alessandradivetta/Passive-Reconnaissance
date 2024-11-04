@@ -4,6 +4,7 @@ Learn about the essential tools for passive reconnaissance, such as whois, nsloo
 Reconnaissance (recon) can be defined as a preliminary survey to gather information about a target. We divide reconnaissance into:
 
 Passive Reconnaissance
+
 Active Reconnaissance
 
 In passive reconnaissance, you rely on publicly available knowledge. It is the knowledge that you can access from publicly available resources without directly engaging with the target and it includes:
@@ -13,7 +14,6 @@ Reading news articles about the target company.
 
 Active reconnaissance, on the other hand, requires direct engagement with the target.
 Examples of active reconnaissance activities include:
-
 Connecting to one of the company servers such as HTTP, FTP, and SMTP.
 Calling the company in an attempt to get information (social engineering).
 Entering company premises pretending to be a repairman.
