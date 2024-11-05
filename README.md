@@ -69,3 +69,8 @@ Now we will focus on the active - reconnisance, which requires you to make some 
 This contact can be a phone call or a visit to the target company under some pretence to gather more information, usually as part of social engineering. Alternatively, it can be a direct connection to the target system, whether visiting their website or checking if their firewall has an SSH port open. 
 We'll discuss using simple tools such as ping, traceroute, telnet, and nc to gather information about the network, system, and services.
 
+# Telnet command
+After the active reconnaissance phase, we need to know what programs are running on the victim's device and know what softwares are present and their versions. This phase is called the “banner grabbing” phase, which we will activate through the telnet, nestat, and nmap command
+```
+telnet example.com
+```
